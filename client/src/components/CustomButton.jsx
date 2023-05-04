@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import state from '../store'
-import { useSnapshot } from 'valtio'
+import state from '../store';
+import { useSnapshot } from 'valtio';
 
 const CustomButton = ({ type, title, customStyles, handleClick }) => {
 
